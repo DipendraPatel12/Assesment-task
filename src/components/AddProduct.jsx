@@ -24,14 +24,14 @@ function AddProduct({ setProducts }) {
     <div className="my-4 flex flex-col sm:flex-row justify-center items-center gap-2 px-4">
       <div className="flex flex-col sm:flex-row justify-center items-center gap-2 w-full max-w-md">
         <input
-          className="border p-2 w-full sm:w-40"
+          className="border p-2 w-full sm:w-46"
           type="text"
           placeholder="Product Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <input
-          className="border p-2 w-full sm:w-32"
+          className="border p-2 w-full sm:w-46"
           type="number"
           placeholder="Price"
           value={price}
